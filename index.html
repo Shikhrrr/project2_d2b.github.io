@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Converter.css">
+    <script src="Converter.js"></script>
+</head>
+<body>
+    <div id="container">
+        <div id="content">
+            <h1>Converter.io</h1>
+            <h2>Convert all digital formats with a tap</h2>
+            <details>
+                <summary>
+                    Choose what you want to convert from
+                </summary>
+                <ul>
+                    <li><button id="dec-bin" class="convert">Decimal to Binary</button></li>
+                </ul>
+            </details>
+            <div id="converter">
+                <div id="output">
+                    <form>
+                        <label for="Convert from">Enter decimal value</label>
+                        <input type="text" id="from" placeholder="Enter Decimal Value" class="text">
+                        <input type="submit" id="submit">
+                    </form>
+                    <button id="reset">Reset</button>
+                    <h2 id="finalOutput">Output will come here</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
